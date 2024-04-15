@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca" />
+
+    <EditText
+        android:id="@+id/editTextMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motor" />
+
+    <EditText
+        android:id="@+id/editTextChasis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chasis" />
+
+    <EditText
+        android:id="@+id/editTextVin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="VIN" />
+
+    <EditText
+        android:id="@+id/editTextCombustion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Combustión" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>
